@@ -1,0 +1,39 @@
+div[data-slate-editor="true"]:focus-visible {
+    outline: none;
+    width: 30ch;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+span[data-slate-placeholder="true"] {
+    top: unset !important;
+}
+
+.template-selector-container p {
+    margin: 0;
+}
+
+.template-selector-container {
+    min-height: 22px;
+}
+
+.template-selector-container-default {
+    background-color: field;
+    width: 30ch;
+    padding-block: 1px;
+    padding-inline: 2px;
+    padding: 1px 3px;
+    margin: 0;
+    border: inset 1px rgb(118, 118, 118);
+    border-radius: 3px;
+}
+
+.template-selector-container-default:focus-within {
+    outline: -webkit-focus-ring-color auto 1px;
+    outline-offset: 0px;
+}
+
+.template-selector-container-default > div {
+    margin: 1px 0;
+    min-height: 20px;
+}
